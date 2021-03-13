@@ -3,7 +3,21 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+  arr = []
+
+  r = "rock"
+  p = "paper"
+  s = "scissors"
+
+  if n == 1:
+     arr = [[r], [p], [s]]
+     
+  elif n == 0:
+    arr = [[]]
+    
+  return arr
+
+rock_paper_scissors(1)
 
 
 if __name__ == "__main__":
